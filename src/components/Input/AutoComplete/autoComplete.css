@@ -1,0 +1,23 @@
+
+.autosuggest-container > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.autosuggest-container > ul > li {
+  text-align: center;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+
+.autosuggest-container > ul > li:hover {
+  background-color: #f1f1f1;
+}
+
+.autosuggest-container {
+  margin-top: -0.75rem;
+  background-color: #f9f9f9;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
